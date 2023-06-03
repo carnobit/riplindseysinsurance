@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #FFDB58;
+    /*background: #FFDB58;*/
     height: 80px;
     display: flex;
     justify-content: center;
@@ -187,9 +187,9 @@
 
 
 
-.main {
+/*.main {
     background-color: #FFDB58;
-}
+}*/
 
 .main-container {
     display: grid;
@@ -304,11 +304,13 @@
     .main__content h1 {
         font-size: 2rem;
         margin-top: 3rem;
+        position: center;
     }
 
     .main__content p {
         margin-top: 2rem;
         font-size: 1.5rem;
+        position: center;
     }
 
     .main__btn {
@@ -317,11 +319,18 @@
     }
 }
 
-.column {
+.column1 {
     float: left;
-    width: 40%
+    width: 40%;
     padding: 5px;
+    
   }
+ 
+.column2 {
+    float: right;
+    width: 30%;
+    padding: 5px;
+}
 
   .row::after {
     content: "";
@@ -329,6 +338,6 @@
     display: table;
   }
 
-  .botanical {
-    width: 50%
-  }
+  body {
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
+}
