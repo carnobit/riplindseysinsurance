@@ -160,6 +160,46 @@ i {
     height: 80%;
     width: 80%;
 }
+/* Space */ 
+.main__btn1 {
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #04ffc4 0%, #03f58c 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: fixed;
+    transition: all 0.35s;
+    outline: none;
+}
 
+.main__btn1 a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main__btn1:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #141414;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main__btn1:hover {
+    color: #fff;
+}
+
+.main__btn1:hover:after {
+    width: 100%;
+}
 
 /* Images */
