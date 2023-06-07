@@ -123,6 +123,7 @@ i {
     position: fixed;
     transition: all 0.35s;
     outline: none;
+    font-family: "Charm", cursive;
 }
 
 .main__btn a {
@@ -173,6 +174,7 @@ i {
     position: fixed;
     transition: all 0.35s;
     outline: none;
+    font-family: "Charm", cursive;
 }
 
 .main__btn1 a {
